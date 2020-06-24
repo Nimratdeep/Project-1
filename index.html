@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> What I learned</title>
+</head>
+
+<body>
+    <header>
+        <h1> Html Notes</h1>
+        <nav><a href="#Element"> Element</a><br><a href="# Entities"> Entities</a><br><a href="#Text formatting"> Text Formatting</a><br><a href="#div and span tags"> div and span tags</a><br><a href="#Hyperlinks anchor">Hyperlinks Anchor</a><br> <a href="#examples">Examples</a></nav>
+    </header>
+    <section id="Element">
+        <h1>Element</h1>
+        <p> It consists of the opening tag, the closing tag and the content.</p>
+    </section>
+    <section id="Entities">
+        <h1> Entities</h1>
+        <p>Entities are used to display reserved characters (which would otherwise be interpreted as HTML code) and invisible characters(like non-breaking spaces). </p>
+    </section>
+    <section id="Text formatting">
+        <h1> Text Formatting</h1>
+        <p> Text formatting helps in making the text look slightly different.</p>
+        <p> Following are the examples.<p>Strong makes the text look bold. <br> em makes the text italic. <br> Short makes the text shorter. <br> del makes the text look deleted. A line crossing the text basically.<br> ins underlines the text.<br> Mark highlihts the text.<br>sub makes the text look lower as compared to the remaining text.<br> sup helps the text look raised as compared to the remaining text.</p>
+    </section>
+    <section id="examples">
+        <h1> Examples of text formatting.</h1>
+        <strong> Effect of using strong.</strong><br>
+        <em> Effect of using em.</em><br>
+        <short> Effect of using short.</short><br><del> Effect of using del.</del><br><ins>Effect of using ins.</ins><br><mark>Effect of using mark.</mark><br>Effect of using<sub> sub.</sub><br>Effect of using<sup> sup.</sup>
+        <p> Some more examples</p><u> Underline.</u><br><strike> Strike Text.</strike><br><acronym> Acronym </acronym><br><q> Quoted</q><br><cite> Cite Text</cite><br><code>Code.</code><br>
+        <blockquote>BlockQuote</blockquote>
+    </section>
+    <section id="div and span tags">
+        <h1> div and span tags </h1>
+        <p> Div can be used for styling. Div is used for larger chunks while span is used for smaller portions. Span is used with in-line elements while div is used with block-level content.</p>
+    </section>
+
+    <section id="Hyperlinks anchor">
+        <h1> Hyperlinks Anchor</h1>
+        <p><em>Anchor Attributes</em><br> _blank opens the URL in new browsing context.<br> _self opens the URL in the same browsing context. <br> _parent opens the URL in parent browsing context. <br> _top opens the URL into top-level browsing context.<p><strong>Use the ablove attributes after href part is complated but before the closing square bracket. Then write target and equals too and insert the attribute in double quotes.</strong><br> Here is how using blank would behave.<br> <a href="http://www.google.com" target="_blank"> Google</a></p>
+    </section>
+    <p> To insert an email me option use a href, equal to sign and in the double quotes write mailto: and enter the email and then close with square bracket before closing the a tag. Follow the same with the phone number.<br>Following is how it would appear.<br><a href="mailto:123@gmail.com"> Email me</a><br> <a href="tel:+134578679"> Phone me</a></p>
+    <h1> Adding an Image</h1>
+    <p> Here is an example of an added image.<br> <img src="ss.JPEG" alt="screenshot of course" width="100px" height="100px"></p>
+    <p> To make an image with an absolute path clickable, insert the image attribute in hyperlink attribute. Here is an example.<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.countryliving.com%2Fgardening%2Fg3280%2Fflower-pictures%2F&psig=AOvVaw1tYtg7OFGZRedF_DxH9LJg&ust=1591670591927000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjY4ZOZ8ekCFQAAAAAdAAAAABAL" target="_blank"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.countryliving.com%2Fgardening%2Fg3280%2Fflower-pictures%2F&psig=AOvVaw1tYtg7OFGZRedF_DxH9LJg&ust=1591670591927000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjY4ZOZ8ekCFQAAAAAdAAAAABAL"></a></p>
+    <h1> Creating Lists.</h1>
+    <p> <strong> Ordered List</strong><br> Ordered list has a well numbered list. Here is an example of it.<br>
+        <ol type="1">
+            <li> Pencils</li>
+            <li> Eraser</li>
+            <li> Sharpener</li>
+            <li> Ruler</li>
+        </ol>
+        <p> <strong> Unordered List</strong><br> Unordered has items in no particular sequence.<br>
+            <ul>
+                <li> Pencil</li>
+                <li>Eraser</li>
+                <li> Sharpener</li>
+                <li> Ruler</li>
+            </ul>
+            <p><strong>Descriptive list</strong>
+                <dl>
+                    <dt> Pencil</dt>
+                    <dd> A wooden item which is used to write.</dd>
+                    <dt> Eraser</dt>
+                    <dd> A rubber item.</dd>
+                    <dt> Sharpener</dt>
+                    <dd> Used to sharpen the pencil.</dd>
+                    <dt> Ruler</dt>
+                    <dd> Used for measurements.</dd>
+                </dl>
+
+</body>
+
+</html>
